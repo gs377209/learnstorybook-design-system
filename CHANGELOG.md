@@ -1,3 +1,18 @@
+# v0.1.2 (Mon Mar 10 2025)
+
+#### ⚠️ Pushed to `main`
+
+- update permissions ([@gs377209](https://github.com/gs377209))
+- more changes ([@gs377209](https://github.com/gs377209))
+- try new token name ([@gs377209](https://github.com/gs377209))
+- add publish CI ([@gs377209](https://github.com/gs377209))
+
+#### Authors: 1
+
+- Gerrod Schirtzinger ([@gs377209](https://github.com/gs377209))
+
+---
+
 # v0.1.1 (Mon Mar 10 2025)
 
 #### 🐛 Bug Fix
