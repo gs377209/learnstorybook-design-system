@@ -14,6 +14,8 @@ jobs:
         with:
           #👇 Fetches all history so Chromatic can compare against previous builds
           fetch-depth: 0
+      - name: Enable Corepack
+        run: corepack enable
       - uses: actions/setup-node@v4
         with:
           #👇 Sets the version of Node.js to use
