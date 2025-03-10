@@ -6,7 +6,11 @@ on:
   push:
     branches: [main]
 
-# what the action will do
+permissions:
+  contents:
+    write
+
+    # what the action will do
 jobs:
   release:
     runs-on: ubuntu-latest
