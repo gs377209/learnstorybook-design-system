@@ -22,18 +22,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auto-it/bot-list@npm:10.46.0":
-  version: 10.46.0
-  resolution: "@auto-it/bot-list@npm:10.46.0"
-  checksum: 10c0/5607d728d5e76093d8bde9a08e9f0bb599934e11b52f01dd504e6ab166b722766004b4bbc112b2fc5c67bd61500b2503a9e1b7ddf60605e1192454dddb76d7ed
+"@auto-it/bot-list@npm:11.3.0":
+  version: 11.3.0
+  resolution: "@auto-it/bot-list@npm:11.3.0"
+  checksum: 10c0/17facb15164a094bdbae7e9635a661068fd8d15ce8aae3d0c4995cff58cb0799d990d6a851937f6c9475f6d94f84a8139c108422237de8f4bca006e48e724593
   languageName: node
   linkType: hard
 
-"@auto-it/core@npm:10.46.0":
-  version: 10.46.0
-  resolution: "@auto-it/core@npm:10.46.0"
+"@auto-it/core@npm:11.3.0":
+  version: 11.3.0
+  resolution: "@auto-it/core@npm:11.3.0"
   dependencies:
-    "@auto-it/bot-list": "npm:10.46.0"
+    "@auto-it/bot-list": "npm:11.3.0"
     "@endemolshinegroup/cosmiconfig-typescript-loader": "npm:^3.0.2"
     "@octokit/core": "npm:^3.5.1"
     "@octokit/plugin-enterprise-compatibility": "npm:1.3.0"
@@ -78,16 +78,16 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 10c0/407c813386b9d9777f6155a6810d2b99bee832ef77bf4bd437b490cd93ec8b25307752334501c41e335412cb73e6653722239fb5b023d0abb29ff924b9ab2738
+  checksum: 10c0/c93ce7772f213ef893682a9c51d6938c087e65054d3dbdf1c7fe6ce55aeb5cc19db619e3fa7002e52e8c2212cea6c9fc20272920a54a97e1b96590dc0cfbb3bc
   languageName: node
   linkType: hard
 
-"@auto-it/npm@npm:10.46.0":
-  version: 10.46.0
-  resolution: "@auto-it/npm@npm:10.46.0"
+"@auto-it/npm@npm:11.3.0":
+  version: 11.3.0
+  resolution: "@auto-it/npm@npm:11.3.0"
   dependencies:
-    "@auto-it/core": "npm:10.46.0"
-    "@auto-it/package-json-utils": "npm:10.46.0"
+    "@auto-it/core": "npm:11.3.0"
+    "@auto-it/package-json-utils": "npm:11.3.0"
     await-to-js: "npm:^3.0.0"
     endent: "npm:^2.1.0"
     env-ci: "npm:^5.0.1"
@@ -100,44 +100,44 @@ __metadata:
     typescript-memoize: "npm:^1.0.0-alpha.3"
     url-join: "npm:^4.0.0"
     user-home: "npm:^2.0.0"
-  checksum: 10c0/ae039ebe45d380a82d22cf6889b74e48b8e3be33601585549390e6929ccae7b22706039add5f3ad8ab815f20a55a8aa8ead421f7aed8819e77384b0ca2772215
+  checksum: 10c0/0410de3d27b61665b8c53c4f0cc0c8de567bf209dcbee7c9e58423afb87e9a410231f59982140392b005b8d2cdec9b8401f97e0445e2bd5a01e09c114ad4fe21
   languageName: node
   linkType: hard
 
-"@auto-it/package-json-utils@npm:10.46.0":
-  version: 10.46.0
-  resolution: "@auto-it/package-json-utils@npm:10.46.0"
+"@auto-it/package-json-utils@npm:11.3.0":
+  version: 11.3.0
+  resolution: "@auto-it/package-json-utils@npm:11.3.0"
   dependencies:
     parse-author: "npm:^2.0.0"
     parse-github-url: "npm:1.0.2"
-  checksum: 10c0/323c26b582207ddef38b43698d845a677a6979b46dd0a9d763ecc9a9a5e1dd6c6cbfc09e68153397fd17aa0b90897f0013b9cf222c40d1229ac9d7176fa982ba
+  checksum: 10c0/4ad477a7690efea90a4220930c6b83d3da6d7085f36f20b88c334bc51b8e0db42c9d7d084f8649356e375643887cd90ed9e105da6bae68f2b5030688dfb31773
   languageName: node
   linkType: hard
 
-"@auto-it/released@npm:10.46.0":
-  version: 10.46.0
-  resolution: "@auto-it/released@npm:10.46.0"
+"@auto-it/released@npm:11.3.0":
+  version: 11.3.0
+  resolution: "@auto-it/released@npm:11.3.0"
   dependencies:
-    "@auto-it/bot-list": "npm:10.46.0"
-    "@auto-it/core": "npm:10.46.0"
+    "@auto-it/bot-list": "npm:11.3.0"
+    "@auto-it/core": "npm:11.3.0"
     deepmerge: "npm:^4.0.0"
     fp-ts: "npm:^2.5.3"
     io-ts: "npm:^2.1.2"
     tslib: "npm:2.1.0"
-  checksum: 10c0/d777bf6d653ece860b6e6fe3696869deb5450ac505af0a14ded3bbf38f0872a8bc81dcf2ff36b7f6f191f60314e09e931c32ecd5f9f2d19226870f3d86e3799b
+  checksum: 10c0/26a44d071b86014dc70b03b60b015835c8b2ca798981eff1027a20bf76ee1abc5fa29b46f0a33c0537d2d4f63c76aa3f7f35a6ee148cc91ddb327d577452f6ef
   languageName: node
   linkType: hard
 
-"@auto-it/version-file@npm:10.46.0":
-  version: 10.46.0
-  resolution: "@auto-it/version-file@npm:10.46.0"
+"@auto-it/version-file@npm:11.3.0":
+  version: 11.3.0
+  resolution: "@auto-it/version-file@npm:11.3.0"
   dependencies:
-    "@auto-it/core": "npm:10.46.0"
+    "@auto-it/core": "npm:11.3.0"
     fp-ts: "npm:^2.5.3"
     io-ts: "npm:^2.1.2"
     semver: "npm:^7.0.0"
     tslib: "npm:1.10.0"
-  checksum: 10c0/be4c65b21f93b487415471223b7c8868a5d675134686f0f1ae47cff9bbd40ffd31139ce508fc3c017aa8f287205e1b316df328767906041d4673d97db6c6864f
+  checksum: 10c0/c62f52a89ed003dd8c00c54788750a6b5dbc047fc54ce50753c64a6261b548ad8b8d9ed23b5f92663c4c012b99651e6910438c0d8654374c7bee1a2593017c9b
   languageName: node
   linkType: hard
 
@@ -2038,6 +2038,63 @@ __metadata:
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
+
+"@gs377209/learnstorybook-design-system-template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@gs377209/learnstorybook-design-system-template@workspace:."
+  dependencies:
+    "@babel/core": "npm:^7.22.5"
+    "@babel/preset-env": "npm:^7.21.5"
+    "@babel/preset-react": "npm:^7.18.6"
+    "@babel/preset-typescript": "npm:^7.21.5"
+    "@chromatic-com/storybook": "npm:^3.2.5"
+    "@emotion/babel-plugin": "npm:^11.11.0"
+    "@emotion/react": "npm:^11.11.1"
+    "@emotion/styled": "npm:^11.11.0"
+    "@rollup/plugin-babel": "npm:^6.0.3"
+    "@rollup/plugin-commonjs": "npm:^24.1.0"
+    "@rollup/plugin-node-resolve": "npm:^15.0.2"
+    "@rollup/plugin-terser": "npm:^0.4.3"
+    "@storybook/addon-a11y": "npm:^8.6.4"
+    "@storybook/addon-coverage": "npm:^1.0.5"
+    "@storybook/addon-essentials": "npm:^8.6.4"
+    "@storybook/addon-interactions": "npm:^8.6.4"
+    "@storybook/addon-onboarding": "npm:^8.6.4"
+    "@storybook/blocks": "npm:^8.6.4"
+    "@storybook/react": "npm:^8.6.4"
+    "@storybook/react-vite": "npm:^8.6.4"
+    "@storybook/test": "npm:^8.6.4"
+    "@storybook/test-runner": "npm:^0.22.0"
+    "@vitejs/plugin-react": "npm:^3.1.0"
+    auto: "npm:^11.3.0"
+    boxen: "npm:^5.0.1"
+    chromatic: "npm:^11.27.0"
+    dedent: "npm:^0.7.0"
+    npm-run-all: "npm:^4.1.5"
+    polished: "npm:^4.2.2"
+    prettier: "npm:^2.8.8"
+    prop-types: "npm:^15.8.1"
+    react: "npm:^18.0.0"
+    react-dom: "npm:^18.0.0"
+    rimraf: "npm:^3.0.2"
+    rollup: "npm:^3.25.0"
+    rollup-plugin-dts: "npm:^5.3.0"
+    rollup-plugin-peer-deps-external: "npm:^2.2.4"
+    storybook: "npm:^8.6.4"
+    vite: "npm:^4.1.4"
+    zx: "npm:^1.14.1"
+  peerDependencies:
+    "@emotion/react": ^11.11.1
+    "@emotion/styled": ^11.11.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  languageName: unknown
+  linkType: soft
 
 "@hapi/hoek@npm:^9.0.0, @hapi/hoek@npm:^9.3.0":
   version: 9.3.0
@@ -4022,14 +4079,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"auto@npm:^10.3.0":
-  version: 10.46.0
-  resolution: "auto@npm:10.46.0"
+"auto@npm:^11.3.0":
+  version: 11.3.0
+  resolution: "auto@npm:11.3.0"
   dependencies:
-    "@auto-it/core": "npm:10.46.0"
-    "@auto-it/npm": "npm:10.46.0"
-    "@auto-it/released": "npm:10.46.0"
-    "@auto-it/version-file": "npm:10.46.0"
+    "@auto-it/core": "npm:11.3.0"
+    "@auto-it/npm": "npm:11.3.0"
+    "@auto-it/released": "npm:11.3.0"
+    "@auto-it/version-file": "npm:11.3.0"
     await-to-js: "npm:^3.0.0"
     chalk: "npm:^4.0.0"
     command-line-application: "npm:^0.10.1"
@@ -4040,7 +4097,7 @@ __metadata:
     tslib: "npm:2.1.0"
   bin:
     auto: dist/bin/auto.js
-  checksum: 10c0/b5d078c79eb5a90cfdff2c22f06c488468a333b461053d4e81a292caa5df25558b5e1033c10af9064321bf01d22660667edae6b0ff34ab73d831dc98f31f6121
+  checksum: 10c0/01389c0a7721848caddc89faadd895a2a19319eacb156a62bae1bc01601eacfb504b3d8d06e81de1d5ac1febc6c8055d73ec031b4137fcaf026143ac68dda3c9
   languageName: node
   linkType: hard
 
@@ -7538,63 +7595,6 @@ __metadata:
   checksum: 10c0/cd3a0b8878e7d6d3799e54340efe3591ca787d9f95f109f28129bdd2915e37807bf8918bb295ab86afb8c82196beec5a1adcaf29042ce3f2bd932b038fe3aa4b
   languageName: node
   linkType: hard
-
-"learnstorybook-design-system-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "learnstorybook-design-system-template@workspace:."
-  dependencies:
-    "@babel/core": "npm:^7.22.5"
-    "@babel/preset-env": "npm:^7.21.5"
-    "@babel/preset-react": "npm:^7.18.6"
-    "@babel/preset-typescript": "npm:^7.21.5"
-    "@chromatic-com/storybook": "npm:^3.2.5"
-    "@emotion/babel-plugin": "npm:^11.11.0"
-    "@emotion/react": "npm:^11.11.1"
-    "@emotion/styled": "npm:^11.11.0"
-    "@rollup/plugin-babel": "npm:^6.0.3"
-    "@rollup/plugin-commonjs": "npm:^24.1.0"
-    "@rollup/plugin-node-resolve": "npm:^15.0.2"
-    "@rollup/plugin-terser": "npm:^0.4.3"
-    "@storybook/addon-a11y": "npm:^8.6.4"
-    "@storybook/addon-coverage": "npm:^1.0.5"
-    "@storybook/addon-essentials": "npm:^8.6.4"
-    "@storybook/addon-interactions": "npm:^8.6.4"
-    "@storybook/addon-onboarding": "npm:^8.6.4"
-    "@storybook/blocks": "npm:^8.6.4"
-    "@storybook/react": "npm:^8.6.4"
-    "@storybook/react-vite": "npm:^8.6.4"
-    "@storybook/test": "npm:^8.6.4"
-    "@storybook/test-runner": "npm:^0.22.0"
-    "@vitejs/plugin-react": "npm:^3.1.0"
-    auto: "npm:^10.3.0"
-    boxen: "npm:^5.0.1"
-    chromatic: "npm:^11.27.0"
-    dedent: "npm:^0.7.0"
-    npm-run-all: "npm:^4.1.5"
-    polished: "npm:^4.2.2"
-    prettier: "npm:^2.8.8"
-    prop-types: "npm:^15.8.1"
-    react: "npm:^18.0.0"
-    react-dom: "npm:^18.0.0"
-    rimraf: "npm:^3.0.2"
-    rollup: "npm:^3.25.0"
-    rollup-plugin-dts: "npm:^5.3.0"
-    rollup-plugin-peer-deps-external: "npm:^2.2.4"
-    storybook: "npm:^8.6.4"
-    vite: "npm:^4.1.4"
-    zx: "npm:^1.14.1"
-  peerDependencies:
-    "@emotion/react": ^11.11.1
-    "@emotion/styled": ^11.11.0
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  peerDependenciesMeta:
-    react:
-      optional: true
-    react-dom:
-      optional: true
-  languageName: unknown
-  linkType: soft
 
 "leven@npm:^3.1.0":
   version: 3.1.0

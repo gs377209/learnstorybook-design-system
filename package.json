@@ -1,7 +1,8 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "@gs377209/learnstorybook-design-system-template",
+  "description": "Storybook design systems tutorial",
   "version": "0.1.0",
-  "private": true,
+  "repository": "https://github.com/gs377209/learnstorybook-design-system.git",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -9,6 +10,10 @@
     "README.md"
   ],
   "license": "MIT",
+  "author": {
+    "email": "gerrod.l.schirtzinger@gmail.com",
+    "name": "Gerrod Schirtzinger"
+  },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "watch": "rollup --watch -c --bundleConfigAsCjs",
@@ -46,7 +51,7 @@
     "@storybook/test": "^8.6.4",
     "@storybook/test-runner": "^0.22.0",
     "@vitejs/plugin-react": "^3.1.0",
-    "auto": "^10.3.0",
+    "auto": "^11.3.0",
     "boxen": "^5.0.1",
     "chromatic": "^11.27.0",
     "dedent": "^0.7.0",
