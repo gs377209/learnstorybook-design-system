@@ -82,7 +82,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auto-it/npm@npm:11.3.0":
+"@auto-it/npm@npm:11.3.0, @auto-it/npm@npm:^11.3.0":
   version: 11.3.0
   resolution: "@auto-it/npm@npm:11.3.0"
   dependencies:
@@ -114,7 +114,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auto-it/released@npm:11.3.0":
+"@auto-it/released@npm:11.3.0, @auto-it/released@npm:^11.3.0":
   version: 11.3.0
   resolution: "@auto-it/released@npm:11.3.0"
   dependencies:
@@ -2043,6 +2043,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@gs377209/learnstorybook-design-system-template@workspace:."
   dependencies:
+    "@auto-it/npm": "npm:^11.3.0"
+    "@auto-it/released": "npm:^11.3.0"
     "@babel/core": "npm:^7.22.5"
     "@babel/preset-env": "npm:^7.21.5"
     "@babel/preset-react": "npm:^7.18.6"
