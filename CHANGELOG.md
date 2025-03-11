@@ -1,3 +1,19 @@
+# v1.0.0 (Tue Mar 11 2025)
+
+#### 💥 Breaking Change
+
+- Bump the npm_and_yarn group across 1 directory with 3 updates [#10](https://github.com/gs377209/learnstorybook-design-system/pull/10) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### 🔩 Dependency Updates
+
+- Bump @rollup/plugin-node-resolve from 15.1.0 to 16.0.0 [#3](https://github.com/gs377209/learnstorybook-design-system/pull/3) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v0.2.1 (Tue Mar 11 2025)
 
 #### ⚠️ Pushed to `main`
