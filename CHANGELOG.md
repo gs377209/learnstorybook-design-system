@@ -1,3 +1,15 @@
+# v0.2.1 (Tue Mar 11 2025)
+
+#### ⚠️ Pushed to `main`
+
+- try admin token ([@gs377209](https://github.com/gs377209))
+
+#### Authors: 1
+
+- Gerrod Schirtzinger ([@gs377209](https://github.com/gs377209))
+
+---
+
 # v0.2.0 (Tue Mar 11 2025)
 
 #### 🚀 Enhancement
