@@ -1,3 +1,16 @@
+# v1.0.1 (Thu Mar 27 2025)
+
+#### ⚠️ Pushed to `main`
+
+- version ([@gs377209](https://github.com/gs377209))
+- upgrade ([@gs377209](https://github.com/gs377209))
+
+#### Authors: 1
+
+- Gerrod Schirtzinger ([@gs377209](https://github.com/gs377209))
+
+---
+
 # v1.0.0 (Tue Mar 11 2025)
 
 #### 💥 Breaking Change
