@@ -1,3 +1,15 @@
+# v2.1.2 (Wed Apr 02 2025)
+
+#### 🐛 Bug Fix
+
+- upgrade [#18](https://github.com/gs377209/learnstorybook-design-system/pull/18) ([@gs377209](https://github.com/gs377209))
+
+#### Authors: 1
+
+- Gerrod Schirtzinger ([@gs377209](https://github.com/gs377209))
+
+---
+
 # v2.0.1 (Thu Mar 27 2025)
 
 #### ⚠️ Pushed to `main`
