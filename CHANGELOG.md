@@ -1,3 +1,15 @@
+# v2.1.4 (Fri Apr 11 2025)
+
+#### 🐛 Bug Fix
+
+- Bump vite from 6.2.5 to 6.2.6 in the npm_and_yarn group [#20](https://github.com/gs377209/learnstorybook-design-system/pull/20) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v2.1.3 (Fri Apr 04 2025)
 
 #### 🐛 Bug Fix
