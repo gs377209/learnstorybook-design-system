@@ -60,7 +60,7 @@
     "auto": "^11.3.0",
     "boxen": "^5.1.2",
     "chromatic": "^11.27.0",
-    "dedent": "^0.7.0",
+    "dedent": "^1.6.0",
     "npm-run-all": "^4.1.5",
     "polished": "^4.3.1",
     "prettier": "^2.8.8",
