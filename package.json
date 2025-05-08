@@ -1,7 +1,7 @@
 {
   "name": "@gs377209/learnstorybook-design-system-template",
   "description": "Storybook design systems tutorial",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gs377209/learnstorybook-design-system.git"
