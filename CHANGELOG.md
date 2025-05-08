@@ -1,3 +1,15 @@
+# v2.1.5 (Thu May 08 2025)
+
+#### 🐛 Bug Fix
+
+- Refactor code structure for improved readability and maintainability [#27](https://github.com/gs377209/learnstorybook-design-system/pull/27) ([@gs377209](https://github.com/gs377209))
+
+#### Authors: 1
+
+- Gerrod Schirtzinger ([@gs377209](https://github.com/gs377209))
+
+---
+
 # v2.1.4 (Fri Apr 11 2025)
 
 #### 🐛 Bug Fix
