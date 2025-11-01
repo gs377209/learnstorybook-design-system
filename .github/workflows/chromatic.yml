@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Enable Corepack
         run: corepack enable
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           #👇 Sets the version of Node.js to use
           node-version-file: '.nvmrc'
@@ -39,7 +39,7 @@ jobs:
           fetch-depth: 0
       - name: Enable Corepack
         run: corepack enable
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           #👇 Sets the version of Node.js to use
           node-version-file: '.nvmrc'
