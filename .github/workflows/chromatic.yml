@@ -9,7 +9,7 @@ jobs:
   interaction-tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Enable Corepack
         run: corepack enable
       - uses: actions/setup-node@v4
@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     # The list of steps that the action will go through
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           #👇 Fetches all history so Chromatic can compare against previous builds
           fetch-depth: 0
