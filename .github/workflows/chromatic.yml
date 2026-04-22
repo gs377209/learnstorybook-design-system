@@ -9,10 +9,10 @@ jobs:
   interaction-tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Enable Corepack
         run: corepack enable
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           #👇 Sets the version of Node.js to use
           node-version-file: '.nvmrc'
@@ -33,19 +33,19 @@ jobs:
     runs-on: ubuntu-latest
     # The list of steps that the action will go through
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           #👇 Fetches all history so Chromatic can compare against previous builds
           fetch-depth: 0
       - name: Enable Corepack
         run: corepack enable
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           #👇 Sets the version of Node.js to use
           node-version-file: '.nvmrc'
       - run: yarn
         #👇 Adds Chromatic as a step in the workflow
-      - uses: chromaui/action@v11
+      - uses: chromaui/action@latest
         # Options required for Chromatic's GitHub Action
         with:
           #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/design-systems-for-developers/react/en/review/ to obtain it
