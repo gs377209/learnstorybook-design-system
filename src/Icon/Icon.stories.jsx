@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { css } from '@emotion/react';
 import { Icon } from './Icon';
 import { icons } from '../shared/icons';

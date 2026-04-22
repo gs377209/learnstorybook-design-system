@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
@@ -248,15 +251,15 @@ const StyledButton = styled.button`
           }
           &:focus {
             box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(
-          color.secondary,
-          0.4,
-        )} 0 1px 9px 2px;
+              color.secondary,
+              0.4,
+            )} 0 1px 9px 2px;
           }
           &:focus:hover {
             box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(
-          color.secondary,
-          0.2,
-        )} 0 8px 18px 0px;
+              color.secondary,
+              0.2,
+            )} 0 8px 18px 0px;
           }
         `
       };
@@ -280,15 +283,15 @@ const StyledButton = styled.button`
         }
         &:focus {
           box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(
-      color.primary,
-      0.4,
-    )} 0 1px 9px 2px;
+            color.primary,
+            0.4,
+          )} 0 1px 9px 2px;
         }
         &:focus:hover {
           box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(
-      color.primary,
-      0.2,
-    )} 0 8px 18px 0px;
+            color.primary,
+            0.2,
+          )} 0 8px 18px 0px;
         }
       `};
 

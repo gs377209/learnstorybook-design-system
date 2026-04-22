@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { Global } from '@emotion/react';
 import { GlobalStyle } from '../src/shared/global';
 

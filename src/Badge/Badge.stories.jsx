@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { Badge } from './Badge';
 import { Icon } from '../Icon/Icon';
 
