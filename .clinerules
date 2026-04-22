@@ -1,0 +1,153 @@
+# Claude Rules for learnstorybook-design-system
+
+React design system library using Storybook, Emotion CSS-in-JS, and Rollup.
+
+## Project Overview
+
+A component library published as `@gs377209/learnstorybook-design-system-template` demonstrating best practices for design systems.
+
+**Main entry**: `src/index.js` exports all components
+**Build target**: Dual CJS + ESM in `dist/` 
+**Dev server**: Storybook on port 6006
+
+## Component Pattern
+
+Each component lives in `src/ComponentName/`:
+
+**ComponentName.jsx** - Implementation
+- Use `forwardRef` for ref support
+- Export constant objects: `APPEARANCES`, `SIZES`, etc.
+- Styled with `@emotion/styled`
+- Validate with `PropTypes`
+
+**ComponentName.stories.jsx** - Stories
+- All prop combinations
+- Interactive states (hover, disabled, loading)
+- CSF format
+
+**ComponentName.mdx** - Docs
+- Purpose and use cases
+- Code examples
+- Related components
+
+**index.js**
+```jsx
+export * from './ComponentName';
+```
+
+## Styling Rules
+
+- `@emotion/styled` only - NO external CSS
+- Import tokens: `../shared/styles` (color, typography)
+- Import animations: `../shared/animation` (easing)
+- Color utils: `polished` (darken, rgba, lighten)
+
+Example:
+```jsx
+import styled from '@emotion/styled';
+import { color, typography } from '../shared/styles';
+import { easing } from '../shared/animation';
+import { darken } from 'polished';
+
+const StyledButton = styled.button`
+  background: ${color.primary};
+  font-family: ${typography.base};
+  transition: all 150ms ${easing.easeOut};
+  
+  &:hover {
+    background: ${darken(0.1, color.primary)};
+  }
+`;
+```
+
+## Props Implementation
+
+```jsx
+const APPEARANCES = { PRIMARY: 'primary', SECONDARY: 'secondary' };
+const SIZES = { SMALL: 'small', MEDIUM: 'medium' };
+
+export const Button = forwardRef(({ appearance, size, children, ...props }, ref) => {
+  return (
+    <StyledButton 
+      ref={ref}
+      data-appearance={appearance}
+      data-size={size}
+      {...props}
+    >
+      {children}
+    </StyledButton>
+  );
+});
+
+Button.propTypes = {
+  appearance: PropTypes.oneOf(Object.values(APPEARANCES)),
+  size: PropTypes.oneOf(Object.values(SIZES)),
+  children: PropTypes.node,
+};
+
+Button.defaultProps = {
+  appearance: APPEARANCES.PRIMARY,
+  size: SIZES.MEDIUM,
+};
+```
+
+## Commands
+
+```bash
+yarn storybook              # Storybook dev (6006)
+yarn build                  # Build CJS + ESM
+yarn watch                  # Watch mode
+yarn test-storybook         # Interaction tests
+yarn test-vite              # Vitest runner
+yarn chromatic              # Visual regression
+```
+
+## Build Configuration
+
+**Rollup** produces:
+- `dist/cjs/index.js` - CommonJS
+- `dist/esm/index.js` - ES Modules
+- External dependencies: react, react-dom, @emotion/react, @emotion/styled
+- Minified with source maps
+
+## Shared Utilities
+
+**src/shared/styles.js**
+- `color` object - palette
+- `typography` object - fonts, sizes, weights, line heights
+
+**src/shared/animation.js**
+- `easing` object - cubic-bezier curves
+
+**src/shared/icons.js**
+- SVG icon exports
+
+**src/shared/global.js**
+- Theme configuration
+
+## Testing & QA
+
+- **Storybook Vitest**: Interaction & visual tests
+- **a11y addon**: Accessibility checks
+- **Chromatic**: Visual regression tracking
+- **Coverage**: Via @storybook/addon-coverage
+
+## Publishing
+
+Uses `auto` CLI for releases:
+- Auto-generates changelog
+- Publishes to npm
+- Command: `yarn release`
+
+## New Component Checklist
+
+1. ✅ Create `src/ComponentName/` folder
+2. ✅ Write `ComponentName.jsx` with Emotion styling
+3. ✅ Export constants (APPEARANCES, SIZES)
+4. ✅ Add PropTypes
+5. ✅ Write `ComponentName.stories.jsx` with all variants
+6. ✅ Write `ComponentName.mdx` documentation
+7. ✅ Create `index.js` export
+8. ✅ Update `src/index.js` main export
+9. ✅ Test in Storybook: `yarn storybook`
+10. ✅ Build and verify: `yarn build`
