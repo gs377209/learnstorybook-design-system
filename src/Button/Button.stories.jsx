@@ -1,10 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import styled from '@emotion/styled';
 
 import { Button } from './Button';
 import { Icon } from '../Icon/Icon';
 import { StoryLinkWrapper } from '../LinkWrapper';
 
-import { expect, userEvent, within } from '@storybook/test';
+import { expect, userEvent, within } from 'storybook/test';
 
 const CustomButton = styled.button`
   border: 1px solid green;
@@ -343,7 +345,7 @@ export const WithInteractions = {
   play: async ({ canvasElement }) => {
     // Assigns canvas to the component root element
     const canvas = within(canvasElement);
-    await userEvent.click(canvas.getByRole('link'));
+    await userEvent.click(await canvas.findByRole('link'));
     expect(canvas.getByRole('link')).toHaveAttribute(
       'href',
       'http://storybook.js.org',

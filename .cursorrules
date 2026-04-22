@@ -1,0 +1,65 @@
+# Cursor Rules for learnstorybook-design-system
+
+This is a React design system built with Storybook, Emotion, and Rollup.
+
+## Component Creation Pattern
+
+When creating a new component:
+1. Create folder: `src/ComponentName/`
+2. Implement: `ComponentName.jsx` with styled components
+3. Stories: `ComponentName.stories.jsx` with all variants
+4. Docs: `ComponentName.mdx` with examples
+5. Export: `index.js` with `export * from './ComponentName'`
+6. Update: `src/index.js` to include the new component
+
+## Styling Rules
+
+- Use `@emotion/styled` - NO external CSS files
+- Import design tokens from `../shared/styles`
+- Use `polished` utilities for color manipulation
+- All components must support ref forwarding with `forwardRef`
+
+## Props Pattern
+
+Define and export constant objects for variants:
+```jsx
+const APPEARANCES = { PRIMARY: 'primary', SECONDARY: 'secondary' };
+const SIZES = { SMALL: 'small', MEDIUM: 'medium' };
+
+export const Button = forwardRef((props, ref) => { /* ... */ });
+Button.propTypes = { 
+  appearance: PropTypes.oneOf(Object.values(APPEARANCES)),
+  size: PropTypes.oneOf(Object.values(SIZES)),
+};
+```
+
+## Development Commands
+
+- `yarn storybook` - Dev server (port 6006)
+- `yarn build` - Rollup build (CJS + ESM)
+- `yarn watch` - Watch mode
+- `yarn test-storybook` - Run tests
+- `yarn test-vite` - Vitest runner
+- `yarn chromatic` - Visual regression testing
+
+## Build Output
+
+- CommonJS: `dist/cjs/index.js`
+- ESM: `dist/esm/index.js`
+- External: react, react-dom, @emotion/react, @emotion/styled
+- Minified with source maps
+
+## Testing
+
+- Storybook + Vitest integration for interaction tests
+- Accessibility addon for a11y checks
+- Chromatic for visual regression
+- Stories must include all prop combinations
+
+## No-nos
+
+- ❌ External CSS files per component
+- ❌ Inline styles (use Emotion)
+- ❌ Missing PropTypes
+- ❌ Components without stories
+- ❌ Hardcoded colors (use `../shared/styles`)

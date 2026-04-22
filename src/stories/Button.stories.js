@@ -1,4 +1,6 @@
-import { fn } from '@storybook/test';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { fn } from 'storybook/test';
 
 import { Button } from './Button';
 
@@ -51,6 +53,6 @@ export const Small = {
 export const Toggle = {
   args: {
     primary: false,
-    label: "Button"
-  }
+    label: 'Button',
+  },
 };
