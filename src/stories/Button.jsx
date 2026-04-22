@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 import PropTypes from 'prop-types';
 
@@ -12,11 +13,15 @@ export const Button = ({
   label,
   ...props
 }) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  const mode = primary
+    ? 'storybook-button--primary'
+    : 'storybook-button--secondary';
   return (
     <button
-      type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      type='button'
+      className={['storybook-button', `storybook-button--${size}`, mode].join(
+        ' ',
+      )}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >

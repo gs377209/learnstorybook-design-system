@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import { css } from '@emotion/react';
@@ -9,7 +12,9 @@ import { color } from '../shared/styles';
 
 const linkStyles = css`
   display: inline-block;
-  transition: transform 150ms ease-out, color 150ms ease-out;
+  transition:
+    transform 150ms ease-out,
+    color 150ms ease-out;
   text-decoration: none;
 
   color: ${color.secondary};
