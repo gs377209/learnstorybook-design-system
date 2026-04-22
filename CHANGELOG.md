@@ -1,3 +1,21 @@
+# v2.1.6 (Wed Apr 22 2026)
+
+#### 🐛 Bug Fix
+
+- action upgrades; storybook upgrades; add a11y testing; add vite testi… [#53](https://github.com/gs377209/learnstorybook-design-system/pull/53) ([@gs377209](https://github.com/gs377209))
+
+#### ⚠️ Pushed to `main`
+
+- maybe now ([@gs377209](https://github.com/gs377209))
+- Merge branch 'main' of github.com:gs377209/learnstorybook-design-system ([@gs377209](https://github.com/gs377209))
+- update publishing ([@gs377209](https://github.com/gs377209))
+
+#### Authors: 1
+
+- Gerrod Schirtzinger ([@gs377209](https://github.com/gs377209))
+
+---
+
 # v2.1.5 (Thu May 08 2025)
 
 #### 🐛 Bug Fix
