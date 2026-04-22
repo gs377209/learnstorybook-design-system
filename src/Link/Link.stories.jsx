@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { action } from 'storybook/actions';
 
 import { Icon } from '../Icon';
+import React from 'react';
 import { Link } from './Link';
 import { StoryLinkWrapper } from '../LinkWrapper';
 
