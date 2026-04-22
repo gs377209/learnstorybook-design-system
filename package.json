@@ -101,5 +101,8 @@
       "npm",
       "released"
     ]
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }
